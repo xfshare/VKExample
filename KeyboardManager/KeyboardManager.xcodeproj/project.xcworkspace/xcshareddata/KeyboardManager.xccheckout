@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D3AAC2A7-7C8D-43E9-A82A-9F6B87C9CA88</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>770F98556BD81E32948813A6BAC171FD3735B18C</key>
+		<string>https://github.com/xfshare/KeyboardManager.git</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>770F98556BD81E32948813A6BAC171FD3735B18C</key>
+		<string>KeyboardManager/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/xfshare/KeyboardManager.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>770F98556BD81E32948813A6BAC171FD3735B18C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>770F98556BD81E32948813A6BAC171FD3735B18C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>KeyboardManager</string>
+		</dict>
+	</array>
+</dict>
+</plist>
