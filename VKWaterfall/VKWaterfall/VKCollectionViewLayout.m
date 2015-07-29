@@ -93,6 +93,7 @@
 
 
 - (float)colWidth{
+
     return LayoutVertical? roundf(CGRectGetWidth(self.collectionView.bounds) / self.colCount):roundf(CGRectGetHeight(self.collectionView.bounds) / self.colCount);
 }
 

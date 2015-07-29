@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04C2A8BD1B68AE1900ECD213 /* UIImagePickerController+Nonrotating.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C2A8BA1B68AE1900ECD213 /* UIImagePickerController+Nonrotating.m */; };
+		04C2A8BE1B68AE1900ECD213 /* VKNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C2A8BC1B68AE1900ECD213 /* VKNextViewController.m */; };
+		04C2A8C21B68B00100ECD213 /* UIViewController+VKVCCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C2A8C11B68B00100ECD213 /* UIViewController+VKVCCategory.m */; };
+		04C2A8C41B68B27700ECD213 /* VKNextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C2A8C31B68B27700ECD213 /* VKNextViewController.xib */; };
+		04CE6C951B6760CD0049A50F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CE6C941B6760CD0049A50F /* main.m */; };
+		04CE6C981B6760CD0049A50F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CE6C971B6760CD0049A50F /* AppDelegate.m */; };
+		04CE6C9B1B6760CD0049A50F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CE6C9A1B6760CD0049A50F /* ViewController.m */; };
+		04CE6C9E1B6760CD0049A50F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CE6C9C1B6760CD0049A50F /* Main.storyboard */; };
+		04CE6CA01B6760CD0049A50F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CE6C9F1B6760CD0049A50F /* Images.xcassets */; };
+		04CE6CA31B6760CD0049A50F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CE6CA11B6760CD0049A50F /* LaunchScreen.xib */; };
+		04CE6CAF1B6760CD0049A50F /* VKCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CE6CAE1B6760CD0049A50F /* VKCameraTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04CE6CA91B6760CD0049A50F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CE6C871B6760CD0049A50F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04CE6C8E1B6760CD0049A50F;
+			remoteInfo = VKCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04C2A8B91B68AE1900ECD213 /* UIImagePickerController+Nonrotating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImagePickerController+Nonrotating.h"; sourceTree = "<group>"; };
+		04C2A8BA1B68AE1900ECD213 /* UIImagePickerController+Nonrotating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImagePickerController+Nonrotating.m"; sourceTree = "<group>"; };
+		04C2A8BB1B68AE1900ECD213 /* VKNextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKNextViewController.h; sourceTree = "<group>"; };
+		04C2A8BC1B68AE1900ECD213 /* VKNextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKNextViewController.m; sourceTree = "<group>"; };
+		04C2A8BF1B68AF5100ECD213 /* VKCameraPch.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKCameraPch.pch; sourceTree = "<group>"; };
+		04C2A8C01B68B00100ECD213 /* UIViewController+VKVCCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+VKVCCategory.h"; sourceTree = "<group>"; };
+		04C2A8C11B68B00100ECD213 /* UIViewController+VKVCCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+VKVCCategory.m"; sourceTree = "<group>"; };
+		04C2A8C31B68B27700ECD213 /* VKNextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VKNextViewController.xib; sourceTree = "<group>"; };
+		04CE6C8F1B6760CD0049A50F /* VKCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CE6C931B6760CD0049A50F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CE6C941B6760CD0049A50F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04CE6C961B6760CD0049A50F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04CE6C971B6760CD0049A50F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04CE6C991B6760CD0049A50F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04CE6C9A1B6760CD0049A50F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04CE6C9D1B6760CD0049A50F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04CE6C9F1B6760CD0049A50F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04CE6CA21B6760CD0049A50F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		04CE6CA81B6760CD0049A50F /* VKCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VKCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CE6CAD1B6760CD0049A50F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CE6CAE1B6760CD0049A50F /* VKCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKCameraTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04CE6C8C1B6760CD0049A50F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CE6CA51B6760CD0049A50F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04CE6C861B6760CD0049A50F = {
+			isa = PBXGroup;
+			children = (
+				04CE6C911B6760CD0049A50F /* VKCamera */,
+				04CE6CAB1B6760CD0049A50F /* VKCameraTests */,
+				04CE6C901B6760CD0049A50F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04CE6C901B6760CD0049A50F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04CE6C8F1B6760CD0049A50F /* VKCamera.app */,
+				04CE6CA81B6760CD0049A50F /* VKCameraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04CE6C911B6760CD0049A50F /* VKCamera */ = {
+			isa = PBXGroup;
+			children = (
+				04C2A8B91B68AE1900ECD213 /* UIImagePickerController+Nonrotating.h */,
+				04C2A8BA1B68AE1900ECD213 /* UIImagePickerController+Nonrotating.m */,
+				04C2A8C01B68B00100ECD213 /* UIViewController+VKVCCategory.h */,
+				04C2A8C11B68B00100ECD213 /* UIViewController+VKVCCategory.m */,
+				04CE6C961B6760CD0049A50F /* AppDelegate.h */,
+				04CE6C971B6760CD0049A50F /* AppDelegate.m */,
+				04CE6C991B6760CD0049A50F /* ViewController.h */,
+				04CE6C9A1B6760CD0049A50F /* ViewController.m */,
+				04C2A8BB1B68AE1900ECD213 /* VKNextViewController.h */,
+				04C2A8BC1B68AE1900ECD213 /* VKNextViewController.m */,
+				04C2A8C31B68B27700ECD213 /* VKNextViewController.xib */,
+				04CE6C9C1B6760CD0049A50F /* Main.storyboard */,
+				04CE6C9F1B6760CD0049A50F /* Images.xcassets */,
+				04CE6CA11B6760CD0049A50F /* LaunchScreen.xib */,
+				04CE6C921B6760CD0049A50F /* Supporting Files */,
+			);
+			path = VKCamera;
+			sourceTree = "<group>";
+		};
+		04CE6C921B6760CD0049A50F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04CE6C931B6760CD0049A50F /* Info.plist */,
+				04CE6C941B6760CD0049A50F /* main.m */,
+				04C2A8BF1B68AF5100ECD213 /* VKCameraPch.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04CE6CAB1B6760CD0049A50F /* VKCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				04CE6CAE1B6760CD0049A50F /* VKCameraTests.m */,
+				04CE6CAC1B6760CD0049A50F /* Supporting Files */,
+			);
+			path = VKCameraTests;
+			sourceTree = "<group>";
+		};
+		04CE6CAC1B6760CD0049A50F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04CE6CAD1B6760CD0049A50F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04CE6C8E1B6760CD0049A50F /* VKCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CE6CB21B6760CD0049A50F /* Build configuration list for PBXNativeTarget "VKCamera" */;
+			buildPhases = (
+				04CE6C8B1B6760CD0049A50F /* Sources */,
+				04CE6C8C1B6760CD0049A50F /* Frameworks */,
+				04CE6C8D1B6760CD0049A50F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VKCamera;
+			productName = VKCamera;
+			productReference = 04CE6C8F1B6760CD0049A50F /* VKCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04CE6CA71B6760CD0049A50F /* VKCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CE6CB51B6760CD0049A50F /* Build configuration list for PBXNativeTarget "VKCameraTests" */;
+			buildPhases = (
+				04CE6CA41B6760CD0049A50F /* Sources */,
+				04CE6CA51B6760CD0049A50F /* Frameworks */,
+				04CE6CA61B6760CD0049A50F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04CE6CAA1B6760CD0049A50F /* PBXTargetDependency */,
+			);
+			name = VKCameraTests;
+			productName = VKCameraTests;
+			productReference = 04CE6CA81B6760CD0049A50F /* VKCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04CE6C871B6760CD0049A50F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = VKan;
+				TargetAttributes = {
+					04CE6C8E1B6760CD0049A50F = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					04CE6CA71B6760CD0049A50F = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 04CE6C8E1B6760CD0049A50F;
+					};
+				};
+			};
+			buildConfigurationList = 04CE6C8A1B6760CD0049A50F /* Build configuration list for PBXProject "VKCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04CE6C861B6760CD0049A50F;
+			productRefGroup = 04CE6C901B6760CD0049A50F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04CE6C8E1B6760CD0049A50F /* VKCamera */,
+				04CE6CA71B6760CD0049A50F /* VKCameraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04CE6C8D1B6760CD0049A50F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C2A8C41B68B27700ECD213 /* VKNextViewController.xib in Resources */,
+				04CE6C9E1B6760CD0049A50F /* Main.storyboard in Resources */,
+				04CE6CA31B6760CD0049A50F /* LaunchScreen.xib in Resources */,
+				04CE6CA01B6760CD0049A50F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CE6CA61B6760CD0049A50F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04CE6C8B1B6760CD0049A50F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C2A8C21B68B00100ECD213 /* UIViewController+VKVCCategory.m in Sources */,
+				04C2A8BE1B68AE1900ECD213 /* VKNextViewController.m in Sources */,
+				04CE6C9B1B6760CD0049A50F /* ViewController.m in Sources */,
+				04C2A8BD1B68AE1900ECD213 /* UIImagePickerController+Nonrotating.m in Sources */,
+				04CE6C981B6760CD0049A50F /* AppDelegate.m in Sources */,
+				04CE6C951B6760CD0049A50F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CE6CA41B6760CD0049A50F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CE6CAF1B6760CD0049A50F /* VKCameraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04CE6CAA1B6760CD0049A50F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04CE6C8E1B6760CD0049A50F /* VKCamera */;
+			targetProxy = 04CE6CA91B6760CD0049A50F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04CE6C9C1B6760CD0049A50F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CE6C9D1B6760CD0049A50F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04CE6CA11B6760CD0049A50F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CE6CA21B6760CD0049A50F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04CE6CB01B6760CD0049A50F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04CE6CB11B6760CD0049A50F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04CE6CB31B6760CD0049A50F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = VKCamera/VKCameraPch.pch;
+				INFOPLIST_FILE = VKCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04CE6CB41B6760CD0049A50F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = VKCamera/VKCameraPch.pch;
+				INFOPLIST_FILE = VKCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04CE6CB61B6760CD0049A50F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VKCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VKCamera.app/VKCamera";
+			};
+			name = Debug;
+		};
+		04CE6CB71B6760CD0049A50F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VKCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VKCamera.app/VKCamera";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04CE6C8A1B6760CD0049A50F /* Build configuration list for PBXProject "VKCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CE6CB01B6760CD0049A50F /* Debug */,
+				04CE6CB11B6760CD0049A50F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CE6CB21B6760CD0049A50F /* Build configuration list for PBXNativeTarget "VKCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CE6CB31B6760CD0049A50F /* Debug */,
+				04CE6CB41B6760CD0049A50F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CE6CB51B6760CD0049A50F /* Build configuration list for PBXNativeTarget "VKCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CE6CB61B6760CD0049A50F /* Debug */,
+				04CE6CB71B6760CD0049A50F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04CE6C871B6760CD0049A50F /* Project object */;
+}

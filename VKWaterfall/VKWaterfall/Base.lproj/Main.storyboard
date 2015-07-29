@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -57,11 +58,23 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="qfW-33-RR7" secondAttribute="bottom" id="Av1-8b-pbj"/>
                             <constraint firstItem="qfW-33-RR7" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="c5C-f6-MeU"/>
                             <constraint firstAttribute="trailingMargin" secondItem="qfW-33-RR7" secondAttribute="trailing" constant="-16" id="eqU-Hh-N8Z"/>
+                            <constraint firstItem="qfW-33-RR7" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="n0d-Ao-mwG"/>
+                            <constraint firstItem="qfW-33-RR7" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="o4u-6J-0eG"/>
+                            <constraint firstAttribute="trailing" secondItem="qfW-33-RR7" secondAttribute="trailing" id="rDI-33-Qls"/>
                             <constraint firstItem="qfW-33-RR7" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" id="rpB-bu-kbl"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="qfW-33-RR7" secondAttribute="bottom" id="wqD-x3-QNT"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="c5C-f6-MeU"/>
+                                <exclude reference="eqU-Hh-N8Z"/>
+                                <exclude reference="rpB-bu-kbl"/>
+                                <exclude reference="wqD-x3-QNT"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="vkCollectionView" destination="qfW-33-RR7" id="Ocd-9A-gXD"/>
@@ -69,6 +82,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="215" y="319"/>
         </scene>
     </scenes>
 </document>

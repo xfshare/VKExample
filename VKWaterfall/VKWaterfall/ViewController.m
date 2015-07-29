@@ -10,31 +10,16 @@
 #import "VKCollectionViewCell.h"
 #import "VKCollectionViewLayout.h"
 #import "UIColor+RandomFlatColors.h"
-static NSString *ReuseIdentifier = @"KYTilePhotoCell";
+static NSString *ReuseIdentifier = @"VKCollectionViewCell";
 
 @interface ViewController ()<UICollectionViewDelegate,UICollectionViewDataSource>
 @property (weak, nonatomic) IBOutlet UICollectionView *vkCollectionView;
-
 @end
-
 @implementation ViewController
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
-    VKCollectionViewLayout *layout = [[VKCollectionViewLayout alloc] init];
-    layout.colOfPortraitNum = 3;
-    layout.colOfLandscape = 6;
-    
-//    [self.vkCollectionView registerClass:[VKCollectionViewCell class] forCellWithReuseIdentifier:ReuseIdentifier];
-    [self.vkCollectionView registerNib:[UINib nibWithNibName:@"VKCollectionViewCell" bundle:nil] forCellWithReuseIdentifier:ReuseIdentifier];
-    
-    self.vkCollectionView.delegate = self;
-    self.vkCollectionView.dataSource = self;
-    [self.vkCollectionView setCollectionViewLayout:layout];
-    
-
+    [self createCollectionView];
 }
 
 #pragma mark -- RotateToReLayout
@@ -53,7 +38,6 @@ static NSString *ReuseIdentifier = @"KYTilePhotoCell";
     return 100;
 }
 
-
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     
     VKCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:ReuseIdentifier forIndexPath:indexPath];
@@ -64,8 +48,24 @@ static NSString *ReuseIdentifier = @"KYTilePhotoCell";
     
 }
 
+#pragma mark - UICollectionViewDelegate
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
-    
     NSLog(@"click = %@",indexPath);
+}
+
+#pragma mark - Create View
+- (void)createCollectionView{
+    
+    VKCollectionViewLayout *layout = [[VKCollectionViewLayout alloc] init];
+    layout.colOfPortraitNum = 2;
+    layout.colOfLandscape = 3;
+    
+    [self.vkCollectionView registerNib:[UINib nibWithNibName:@"VKCollectionViewCell" bundle:nil]
+            forCellWithReuseIdentifier:ReuseIdentifier];
+    
+    self.vkCollectionView.delegate = self;
+    self.vkCollectionView.dataSource = self;
+    [self.vkCollectionView setCollectionViewLayout:layout];
+    
 }
 @end
